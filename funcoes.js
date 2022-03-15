@@ -2,19 +2,19 @@ var numSort = []
 var numDig = []
 
 function sorteioNum(){
+    if(numDig.lenght < 6){
+        alert("coloque 6 numeros")
+    }else{
     numSort = []
     do {
         let sort = Math.ceil(Math.random()*60)
         if(!numSort.includes(sort))
         numSort.push(sort)
-    } while (numSort.length<6)
+    } while (numSort.length<6);
 
     document.getElementById("num-sort").innerHTML = numSort
-    
-    console.log(numSort)
-
     verificaAcertos()
-
+    }
 }
 
 function getNum(valor, pos){
@@ -39,7 +39,7 @@ function limpar(pos){
 
 function verificaAcertos(){
     let cont=0
-    numDig.forEach(function(valor, index){
+    numDig.forEach(function(valor,index){
         if(numSort.includes(valor)){
             cont = cont + 1
         }
