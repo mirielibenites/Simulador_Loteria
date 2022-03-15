@@ -3,7 +3,7 @@ var numDig = []
 
 function sorteioNum(){
     if(numDig.length < 6 ){
-        alert("Antes de sortear, digite 6 números dos campos")
+        alert("Antes de sortear, digite 6 números dos campos.")
     }else{
     numSort = []
     do {
