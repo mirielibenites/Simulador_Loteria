@@ -23,6 +23,7 @@ _(Atalho para emoji: Win + . )_
 |--------------|-----------------|
 | Imagem 1     | Imagem 2        |
 
+<<<<<<< HEAD
 ### Código principal
 ```js:
 function verificaAcertos() {
@@ -36,6 +37,8 @@ function verificaAcertos() {
 }
 ```
 
+=======
+>>>>>>> c127312e58879bf472cec9fcf6a4b23cdcf7c74b
 ### Comandos Git
 
 Comandos para abrir user do git no Visual Studio
