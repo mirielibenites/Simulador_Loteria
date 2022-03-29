@@ -21,7 +21,7 @@ _(Atalho para emoji: Win + . )_
 ### Prints da Tela WebApp
 | Tela Inicial | Primeira Rodada |
 |--------------|-----------------|
-| Imagem 1     | Imagem 2        |
+| ![Tela inicial do Site](/img/tela1.png)     | ![Tela de Sorteio](/img/tela2.png)    |
 
 ### Código principal
 ```js:
