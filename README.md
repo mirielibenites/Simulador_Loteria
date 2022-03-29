@@ -1,6 +1,6 @@
 # Projeto Simulador_Loteria
 O projeto é um simulador de loteria onde o usuários deve digitar 6 números que devem estar entre 0 e 60, 
-após isso e o programa sorteia outros 6 números. Após esse sorteio, o programa verifica a quantidade de acertos.
+após isso o programa sorteia outros 6 números. Após esse sorteio, o programa verifica a quantidade de acertos.
 
 ## Tecnologias utilizadas
 - **HTML:** _Estrutura do site;_
@@ -22,3 +22,10 @@ _(Atalho para emoji: Win + . )_
 | Tela Inicial | Primeira Rodada |
 |--------------|-----------------|
 | Imagem 1     | Imagem 2        |
+
+### Comandos Git
+
+Comandos para abrir user do git no Visual Studio
+
+git config --global user.email "mirielibenites@gmail.com"
+git config --global user.name "mirielibenites"
