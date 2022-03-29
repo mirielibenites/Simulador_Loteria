@@ -41,4 +41,5 @@ function verificaAcertos() {
 Comandos para abrir user do git no Visual Studio
 
 git config --global user.email "mirielibenites@gmail.com"
+
 git config --global user.name "mirielibenites"
